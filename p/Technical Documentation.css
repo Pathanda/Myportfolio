@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia;
+    background-color: #79c2d0;
+}
+.body{
+    display:grid;
+    grid-template-columns:minmax(300px,auto)1fr;
+    grid-template-rows:"mainContent";
+    grid-gap:20px;
+}
+#navbar{
+    grid-area:navbar;
+    position:fixed;
+}
+#navbar a{
+    display:block;
+    text-decoration:none;
+    color:black;
+    border:3px solid #bbe4e9;
+    margin:10px 0px 0px 10px;
+    padding:5px;
+    border-radius:5px;
+    
+}
+#mai-doc{       
+    grid-area:mainContent;
+}
+header{
+    font-size:1.5rem;
+    font-weight:bold;
+    text-decoration:underline;
+}
+code {
+    display: block;
+    background-color: #53a8b6;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+p {
+    background-color: #bbe4e9;
+    padding:15px;
+    border-radius:5px;
+}
+#navbar a:hover{
+    box-shadow: 1px 4px 8px;
+}

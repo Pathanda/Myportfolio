@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Danish Pathan</h2>
+            </div>
+            <input type="checkbox" id="check">
+
+            <div class="hamburger">
+                <div class="hamburger" id="hamburger">
+                    <label for="check"><i class="fas fa-bars hamburger-icon"></i></label>
+
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu_list">
+                    <li class="menu_list_items"><a class="link" href="#home"><i class="fa-solid fa-house"id="nav-icon"></i>Home </a> </li>
+                    <li class="menu_list_items"><a class="link" href="#potfolio"><i class="fa-solid fa-briefcase"id="nav-icon"></i>Portfolio </a> </li>
+                    <li class="menu_list_items"><a class="link" href="#about"><i class="fa-solid fa-address-card"id="nav-icon"></i>About </a> </li>
+                    <li class="menu_list_items"><a class="link" href="#services"><i class="fa-solid fa-check"id="nav-icon"></i>Services</a> </li>
+                    <li class="menu_list_items"><a class="link" href="#contact"><i class="fa-solid fa-address-book"id="nav-icon"></i>Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="intro">
+            <div class="intro_head">
+                <h3>Hello, I'm</h3>
+                <h1 id="danish">Danish Pathan</h1>
+
+            </div>
+            <div class="intro_btn">
+                <button class="btn btn_one">Hire Me</button>
+                <button class="btn btn_two bt"><a class="bt" href="resume.jpeg">Get Resume</a></button>
+            </div>
+        </div>
+        <!--my projects -->
+        <div class="projects">
+            <h3 class="pro-head">My Projects</h3>
+            <ul class="pro-list">
+                <li><i class="fa-solid fa-arrow-right" style="padding:0 10px;"></i><a href="./p/Surwayform.html"> Surwayform</a></li>
+                <li><i class="fa-solid fa-arrow-right" style="padding:0 10px;"></i> <a href="./p/Technical Documentation.html"> Technical Documentation</a></li>
+                <li><i class="fa-solid fa-arrow-right" style="padding:0 10px;"></i> <a href="#"> Project 3</a></li>
+                <li><i class="fa-solid fa-arrow-right" style="padding:0 10px;"></i> <a href="#"> Project 4</a></li>
+            </ul>
+        </div>
+
+
+
+
+    </section>
+    <section class="potfolio" id="potfolio">
+        <div class="porfolio-heading">
+            <h1 class="p-head">Featured Portfolio</h1>
+        </div>
+        <div class="potfolio-content">
+            <div class="my-row">
+                <!--col 1 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image"><img src="webdesign.jpeg" alt="Web Design"></div>
+                        <h3>Web Design</h3>
+                        <p>Designing</p>
+                    </div>
+                </div>
+
+                <!--col 2 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image"><img src="devlopment.jpeg" alt="Web Development"></div>
+                        <h3>Web Development</h3>
+                        <p>Development</p>
+                    </div>
+                </div>
+
+                <!--col 3 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image"><img src="Untitled design.png" alt="SEO"></div>
+                        <h3>SEO</h3>
+                        <p>Optimization</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <!--col 4 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image"><img src="content.png" alt="content image"></div>
+                        <h3>Content Writing</h3>
+                        <p>Writing</p>
+                    </div>
+                </div>
+
+                <!--col 5 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image"><img src="wordpress.png" alt="word press image"></div>
+                        <h3>WordPress Dev</h3>
+                        <p>Content Management System</p>
+                    </div>
+                </div>
+
+                <!--col 6 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <video autoplay loop muted src="Untitled design.mp4" style="border-top-left-radius: 20px;
+                            border-top-right-radius: 20px;"></video>
+                        </div>
+                        <h3>Video Editing</h3>
+                        <p>Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-text">
+            <h1 class="about-head">About Me </h1>
+            <p>GeeksforGeeks is a leading platform
+                that provides computer science
+                resources and coding challenges for
+                programmers and technology
+                enthusiasts, along with interview
+                and exam preparations for upcoming
+                aspirants. With a strong emphasis on
+                enhancing coding skills and knowledge,
+                it has become a trusted destination
+                for over 12 million plus registered
+                users worldwide. The platform offers
+                a vast collection of tutorials, practice
+                problems, interview tutorials, articles,
+                and courses, covering various domains
+                of computer science.
+            </p>
+            <p>Our exceptional mentors hailing from top
+                colleges & organizations have the
+                ability to guide you on a journey from
+                the humble beginnings of coding to
+                the pinnacle of expertise. Under their
+                guidance watch your skills flourish
+                as we lay the foundation and help you
+                conquer the world of coding.
+            </p>
+        </div>
+        <div class="about-image">
+            <img class="danish123" src="Untitled_design__2_-removebg-preview.png" alt="image">
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="my-head">
+            <h1>My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <!--col 1 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-paintbrush"></i>
+                        </div>
+                        <h3 class="head3">Web Design</h3>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. It includes aspects such as web design, web publishing, web programming, and
+                            database management. It is the creation of an application that works over the internet i.e.
+                            websites. </p>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. </p>
+
+                    </div>
+                </div>
+                <!--col 2 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="head3">Web Development</h3>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. It includes aspects such as web design, web publishing, web programming, and
+                            database management. It is the creation of an application that works over the internet i.e.
+                            websites. </p>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. </p>
+
+                    </div>
+                </div>
+                <!--col 3 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="head3">SEO</h3>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. It includes aspects such as web design, web publishing, web programming, and
+                            database management. It is the creation of an application that works over the internet i.e.
+                            websites. </p>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <!--col 4 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="head3">Content Writting</h3>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. It includes aspects such as web design, web publishing, web programming, and
+                            database management. It is the creation of an application that works over the internet i.e.
+                            websites. </p>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. </p>
+
+                    </div>
+                </div>
+                <!--col 5 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="icon">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="head3">WordPress Dev</h3>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. It includes aspects such as web design, web publishing, web programming, and
+                            database management. It is the creation of an application that works over the internet i.e.
+                            websites. </p>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. </p>
+
+                    </div>
+                </div>
+                <!--col 6 -->
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="head3">Video Editing</h3>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. It includes aspects such as web design, web publishing, web programming, and
+                            database management. It is the creation of an application that works over the internet i.e.
+                            websites. </p>
+                        <p class="small-para">Web development refers to the creating, building, and maintaining of
+                            websites. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="contact-heading">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 id="get">Get In Touch</h1>
+                <form class="contact-form">
+                    <input type="text" placeholder="  Your name " class="form-control">
+                    <input type="text" placeholder="  Your E-Mail" class="form-control">
+                    <input type="text" placeholder="  Your phone" class="form-control">
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"
+                        placeholder="  Type your messgae here"></textarea>
+                    <input type="submit" value="Send Message" class="form-control " id="fotm-btn">
+                </form>
+            </div>
+            <div class="Contact-Details">
+                <h1>My Contact Details</h1>
+                <div class="details">
+                    <h5><i class="fa-solid fa-envelope" style="font-size: 15px; padding-right: 10px;"></i>EMAIL</h5>
+                    <p>Pathandanish0007@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5><i class="fa-solid fa-phone" style="font-size: 15px; padding-right: 10px;"></i>phone</h5>
+                    <p>9586100033</p>
+                </div>
+                <div class="details">
+                    <h5><i class="fa-brands fa-whatsapp" style="font-size: 15px; padding-right: 10px;"></i>number</h5>
+                    <p>9586100033</p>
+                </div>
+                <div class="details">
+                    <h5><i class="fa-solid fa-location-dot" style="font-size: 15px; padding-right: 10px;"></i>Address
+                    </h5>
+                    <p>-</p>
+                    <p>-</p>
+                    <p>-</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <h4>Copyright © 2023 All rights reserved | This portfolio website template is created by GeeksforGeeks.
+            </h4>
+            <div class="footer-menu">
+                <ul>
+                    <li class="footer-icon"><a href="footer-link"><i class="fab fa-facebook-f" style="font-size: 24px;text-decoration: none;color: #fff;"></i></a></li>
+                    <li class="footer-icon"><a href="footer-link"><i class="fab fa-twitter" style="font-size: 24px;text-decoration: none;color: #fff;"></i></a></li>
+                    <li class="footer-icon"><a href="footer-link"><i class="fab fa-instagram"style="font-size: 24px;text-decoration: none;color: #fff;"></i></a></li>
+                    <li class="footer-icon"><a href="footer-link"></a><i class="fab fa-linkedin-in"style="font-size: 24px;text-decoration: none;color: #fff;"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+        </script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

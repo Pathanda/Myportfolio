@@ -1,0 +1,46 @@
+body {
+    background-color: #05c46b;
+    text-align:center;
+    font-family:Verdana;
+}
+form{
+    box-shadow:2px 5px 10px;
+    margin:50px auto;
+    background-color:white;
+    max-width:500px;
+    padding:30px 20px;
+}
+.form-control {
+    margin-bottom:25px;
+    text-align:left;
+}
+.form-control label{
+    display:block;
+    margin-bottom:10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea{
+    border: 1px solid #000000;
+    border-radius:5px;
+    font-family:inherit;
+    width:95%;
+    padding:10px;
+    display:block; 
+}
+.form-control input[type=radio],
+.form-control input[type=checkbox]{
+    display:inline-block;
+    width:auto;
+}
+button {
+    background-color: #05c46b;
+    border: 2px solid #000000;
+    border-color:darkgray;
+    font-size:21px;
+    width:95%;
+    border-radius:5px;
+    margin-top:50px;
+    margin-bottom:20px;
+    display:block;
+}
